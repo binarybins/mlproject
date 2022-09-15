@@ -66,10 +66,10 @@ def segment(image):
                               'raw_data/single_image/sg_random_processed.png')
     # plt.savefig('../raw_data/single_image/sg_random_processed.png')
     plt.savefig(image_path)
-    return "image segmented"
+    return unpatched_prediction
 
 if __name__ == "__main__":
     image = "raw_data/single_image/sg_random.jpg"
     img_path = os.path.join(os.path.dirname(os.path.dirname(__file__)),
                             "raw_data/single_image/sg_random.jpg")
-    segment(img_path)
+    res = segment(img_path)
