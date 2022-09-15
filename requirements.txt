@@ -8,17 +8,17 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
-segmentation_models
+# segmentation_models
 tensorflow-cpu
 
 # tests/linter
-# black
-# coverage
-# flake8
-# pytest
-# yapf
+black
+coverage
+flake8
+pytest
+yapf
 
-# API
+# # API
 # gcsfs
 # google-cloud-storage
 # mlflow
